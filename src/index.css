@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply bg-ink-900 text-mist-100 font-body antialiased;
+  background-image: radial-gradient(
+      60rem 40rem at 85% -10%,
+      rgba(129, 140, 248, 0.10),
+      transparent 60%
+    ),
+    radial-gradient(50rem 35rem at 5% 15%, rgba(94, 234, 212, 0.08), transparent 60%);
+}
+
+::selection {
+  background: rgba(94, 234, 212, 0.25);
+  color: #e6edf3;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #212936;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #323c4b;
+}
+
+:focus-visible {
+  outline: 2px solid #5eead4;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-10;
+}
+
+.eyebrow {
+  @apply font-mono text-xs tracking-widest text-signal-teal/80 uppercase;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #5eead4, #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-surface {
+  @apply bg-ink-800/60 border border-white/[0.06] backdrop-blur-sm;
+}
+
+.dotted-rule {
+  background-image: linear-gradient(to bottom, rgba(94, 234, 212, 0.5) 40%, transparent 0%);
+  background-position: right;
+  background-size: 1px 6px;
+  background-repeat: repeat-y;
+}

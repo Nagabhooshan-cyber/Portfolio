@@ -1,0 +1,55 @@
+export const skillGroups = [
+  {
+    id: 'languages',
+    title: 'Programming Languages',
+    tag: 'core',
+    items: ['Python', 'C', 'C++', 'SQL'],
+  },
+  {
+    id: 'ai-ml',
+    title: 'AI & Machine Learning',
+    tag: 'ml',
+    items: [
+      'Machine Learning',
+      'Scikit-Learn',
+      'NLP',
+      'Generative AI',
+      'TensorFlow/Keras',
+      'OpenCV',
+      'Pandas',
+      'NumPy',
+      'Matplotlib',
+    ],
+  },
+  {
+    id: 'data-science',
+    title: 'Data Science',
+    tag: 'data',
+    items: [
+      'Data Analysis',
+      'Exploratory Data Analysis',
+      'Feature Engineering',
+      'Data Visualization',
+      'Statistical Analysis',
+      'Predictive Modeling',
+    ],
+  },
+  {
+    id: 'web-backend',
+    title: 'Databases',
+    tag: 'db',
+    items: ['MongoDB', 'MySQL', 'SQLite3'],
+  },
+  {
+    id: 'tools',
+    title: 'Tools',
+    tag: 'tools',
+    items: ['Git', 'GitHub', 'VS Code', 'Docker', 'Streamlit', 'Power BI', 'Tableau'],
+  },
+  {
+    id: 'ai-dev-tools',
+    title: 'AI Development Tools',
+    tag: 'ai-dev',
+    items: ['ChatGPT', 'Claude', 'GitHub Copilot', 'Cursor'],
+  },
+]
