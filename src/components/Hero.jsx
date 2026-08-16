@@ -132,7 +132,7 @@ export default function Hero() {
                 <div className="relative h-full w-full overflow-hidden rounded-2xl bg-ink-950">
                   {!imgError ? (
                     <img
-                      src="/profile.jpg"
+                      src={`${import.meta.env.BASE_URL}profile.jpg`}
                       alt="Nagabhooshan Bhat - Computer Science and AI/ML Student"
                       onError={() => setImgError(true)}
                       className="h-full w-full object-cover transition-all duration-500 group-hover:scale-105"

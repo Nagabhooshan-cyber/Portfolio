@@ -8,6 +8,6 @@ export const profile = {
   phone: '+91 8073068442',
   github: 'https://github.com/Nagabhooshan-cyber',
   linkedin: 'https://www.linkedin.com/in/nagabhooshan-bhat-a5643b2a1/',
-  resumeUrl: '/Nagabhooshan_Bhat_Resume.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}Nagabhooshan_Bhat_Resume.pdf`,
   resumeFileName: 'Nagabhooshan_Bhat_Resume.pdf',
 }
