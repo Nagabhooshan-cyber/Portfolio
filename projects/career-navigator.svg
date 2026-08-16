@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#1e293b" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#1e293b" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="450" stroke="#1e293b" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="450" stroke="#1e293b" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="450" stroke="#1e293b" stroke-width="1"/>
+  <!-- Bar chart -->
+  <rect x="80" y="280" width="50" height="100" rx="4" fill="#14b8a6" opacity="0.7"/>
+  <rect x="160" y="220" width="50" height="160" rx="4" fill="#14b8a6" opacity="0.8"/>
+  <rect x="240" y="190" width="50" height="190" rx="4" fill="#14b8a6"/>
+  <rect x="320" y="240" width="50" height="140" rx="4" fill="#6366f1" opacity="0.8"/>
+  <rect x="400" y="200" width="50" height="180" rx="4" fill="#14b8a6" opacity="0.9"/>
+  <!-- Line chart -->
+  <polyline points="80,200 160,160 240,120 320,140 400,100 480,130 560,90 640,110 720,80" fill="none" stroke="#14b8a6" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="240" cy="120" r="5" fill="#14b8a6"/>
+  <circle cx="400" cy="100" r="5" fill="#14b8a6"/>
+  <circle cx="560" cy="90" r="5" fill="#14b8a6"/>
+  <!-- Title -->
+  <text x="400" y="400" font-family="system-ui" font-size="18" fill="#5eead4" text-anchor="middle" font-weight="600">Data Science Career Navigator</text>
+  <text x="400" y="425" font-family="system-ui" font-size="13" fill="#475569" text-anchor="middle">Career Intelligence Platform</text>
+</svg>
